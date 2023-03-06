@@ -1,0 +1,20 @@
+{
+  "name": "formularios",
+  "version": "1.0.0",
+  "description": "descripción",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --recursive -o css scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.6",
+    "@types/node": "^16.9.1"
+  }
+}
