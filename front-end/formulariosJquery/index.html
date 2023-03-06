@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario Validación con TS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+
+        <form id="formulario" novalidate>
+           <ul id="elementos">
+                <li>
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" maxlength="20" placeholder="Nombre Completo" required/>
+                </li>
+
+                <li>
+                    <label for="nombre" required>Email</label>
+                    <input type="email" id="email" maxlength="50" placeholder="Correo Electrónico" required/>
+                </li>
+
+                <li>
+                     <label>Acepto términos y condiciones</label>
+                     <input type="radio" id="terminos" name="terminos" value="1"> Si
+                     <input type="radio" id="terminos" name="terminos" value="2"> No
+                </li>
+
+                <li>
+                    <button type="submit">Enviar Datos</button>
+                </li>
+           </ul>
+
+        </form>
+      
+        <script data-main="js/validacion" src="js/require-jquery.js"></script>
+
+    </body>
+</html>

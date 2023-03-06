@@ -1,0 +1,17 @@
+{
+  "name": "paquete",
+  "version": "1.0.0",
+  "description": "ejemplo formularios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.6"
+  }
+}

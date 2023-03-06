@@ -1,0 +1,34 @@
+$color-primario:#fff000;
+$tamanyo:24px;
+
+@mixin transform { 
+    text-align: center;
+    font-size: $tamanyo;
+  }
+
+@mixin rotate($angulo){
+    -webkit-transform: rotate($angulo); //Webkit-based
+    -moz-transform: rotate($angulo); //Firebase
+    -ms-transform: rotate($angulo); //Internet-explore
+    -o-transform: rotate($angulo); //Opera
+    transform:rotate($angulo); //Standard css
+}
+
+@mixin spacing($padding, $margin){
+    @if ($padding>$margin){
+        padding: $padding;
+    }@else{
+        padding:$margin;
+    }
+}
+
+#galeria{
+  background:$color-primario;
+}
+
+#galeria p{
+    @include transform;
+    @include spacing(10px,20px);
+    
+}
+

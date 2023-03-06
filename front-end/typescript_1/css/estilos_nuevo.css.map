@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAwBA,AAAA,QAAQ,CAAA;EACN,UAAU,EAzBI,OAAO;CA0BtB;;AAED,AAAA,QAAQ,CAAC,CAAC,CAAA;EAxBN,UAAU,EAAE,MAAM;EAClB,SAAS,EAJJ,IAAI;EAmBL,OAAO,EAUW,IAAI;CAE7B",
+    "sources": [
+        "../sass/estilos_nuevo.scss"
+    ],
+    "names": [],
+    "file": "estilos_nuevo.css"
+}
