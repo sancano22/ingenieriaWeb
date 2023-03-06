@@ -1,0 +1,20 @@
+{
+  "name": "sandra",
+  "version": "1.0.0",
+  "description": "ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --recursive -o css scss"
+  },
+  "keywords": [
+    "ejemplo"
+  ],
+  "author": "sandra cano",
+  "license": "ISC",
+  "dependencies": {
+    "cache": "^2.3.1",
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <form method="post" action="#" id="formulario">
+            <fieldset>
+                <legend>Formulario de contacto</legend>
+                <span id='mensaje'></span>
+             <ul>
+                   <li>
+                        <label for="nombre">Nombre Completo</label>
+                        <input id="nombre" type="text" placeholder="Nombre Completo"/>
+                   </li>
+                   <li>
+                        <label for="rut">RUT</label>
+                        <input id="rut" type="text" placeholder="RUT"/>
+                   </li>
+                   <li> 
+                    <label for="email">Correo Electrónico</label>
+                        <input id="email" type="email" placeholder="Correo Electrónico" />
+                   </li>
+                
+                 <li> 
+                    <label for="telefono">Telefono</label>
+                        <input id="telefono" type="number" placeholder="Telefono" />
+                   </li>
+      
+                   <li> 
+                          <label for="region">Región</label>
+                          <select id="region">
+                          <option>Seleccione la región</option>
+                                  <option value="1">Valparaíso</option>
+                                  <option value="2">Metropolitana</option>
+                                  <option value="3">Antofagasta</option>
+                          </select>
+                   </li>
+                   <li>
+                        <label for="comentarios">Comentarios</label>
+                   <textarea id="comentarios"></textarea>
+                   </li>
+      
+                   <li class='button'>
+                         <button type="submit">Enviar</button>
+                   </li>
+             </ul>
+             </fieldset>
+
+
+        
+        <script src="js/funcions.js" async defer></script>
+    </body>
+</html>

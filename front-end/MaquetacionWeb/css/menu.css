@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:wght@100;300&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+header{
+    float:left;
+    font-size:22px;
+    color:rgb(78, 61, 227);
+    font-weight: bold;
+    margin:5px;
+    padding:10px;
+  }
+  header h1{
+    font-weight: bold;
+  }
+  nav{
+     margin-left:100px;
+     width: 100%;
+     height:90px;
+  }
+  nav ul{
+      list-style-type:none;
+      display: flex;
+  
+  }
+  
+  nav #menu{
+    width:50%;
+    float:left;
+  }
+  
+  nav ul li{
+      color:rgb(210, 205, 255);
+      margin:5px 2px 2px 5px;
+      width:180px;
+      font-size:16px;
+
+      width:180px;
+      height:120;
+      padding:10px;
+      border: 1px solid hsl(90, 9%, 29%);
+      box-shadow:0 1px 1px hsl(160, 75%, 3%);
+  
+     /* margin-top:2px;
+      margin-right:2px;
+      margin-bottom:2px;
+      margin-left:2px;*/
+      flex-wrap: nowrap;
+      text-align: center;
+  }
+  
+  nav li a{
+    text-decoration:none;
+    color:black;
+    font-size: 22px;
+  }
+  /*
+  li a:hover{
+      background-color: blue;
+  }*/
+  nav li:hover,li.visited{
+    background-color: rgba(86, 15, 152, 0.434);
+  }
+  nav ul li img{
+    width:150px;  
+  }
+  
+  nav ul li p{
+      color:black;
+  }
+
+  #buscador{
+    width:50%;
+    float: right;
+  
+  }
+  
+  #buscador input[type="search"]{
+    float:right;
+    width:60%;
+    height: 30px;
+    margin:10px;
+    border: 1px dotted #999;
+    border-radius: 0;
+    -webkit-appearance: none;
+  }
+
+
+  #buscador form{
+    width:50%;
+  }
+  

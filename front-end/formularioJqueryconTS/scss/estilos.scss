@@ -1,0 +1,40 @@
+$tamanyo:12px;
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+body{
+    font-size: $tamanyo;
+}
+
+// Source mixin
+@mixin make-container($padding-x: $container-padding-x) {
+    width: 100%;
+    padding-right: $padding-x;
+    padding-left: $padding-x;
+    margin-right: auto;
+    margin-left: auto;
+}
+  // Usage
+  .container-fluid {
+    width: 100%;
+    @include make-container(30px);
+  }
+
+  input[type="text"]{
+     width:100%;
+  }
+
+  .navbar ul{
+   list-style: none;
+   
+  }
+  .navbar-collapse{
+    justify-content: flex-end;
+   }
+
+
