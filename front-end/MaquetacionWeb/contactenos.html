@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contactenos</title>
+        <meta name="description" content="pagina de contactenos">
+        <meta name="keywords" content="contactenos,ecommerce">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  href="css/reset.css" type="text/css"/>
+        <link rel="stylesheet"  href="css/menu.css" type="text/css"/>
+        <link rel="stylesheet"  href="css/estilos.css" type="text/css"/>
+        <link rel="stylesheet"  href="css/contactenos.css" type="text/css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+       rel="stylesheet">
+        <link rel="stylesheet" href="css/icons.css" type="text/css"/>
+ 
+
+
+    </head>
+    <body>
+        <header><h1>WoW</h1></header>
+        <nav>
+                <ul id="menu"> 
+                    <li><a href="index.html" title="inicio"><span class="material-icons">
+                        home</span>Inicio</a></li>
+                    <li><a href="galeria.html" title="galeria"><span class="material-icons">
+                        grain
+                        </span>Galería</a></li>
+                    <li><a href="videos.html" title="videos"><span class="material-icons">play_circle</span>Videos</a></li>
+                    <li class="visited"><a href="contactenos.html" title="contáctenos"><span class="material-icons">contacts</span>Contáctenos</a></li>
+                </ul>
+                <div id="buscador">
+                      <form method="POST">
+                           <input type="search" autocomplete="address-level1" placeholder="Buscador" /> 
+                      </form>
+                </div>
+         </nav>
+
+         <section id="principal">
+                <form  method="POST">
+                    <ul class="formulario">
+                         <li>
+                          <label for="nombrecompleto">Nombre Completo</label>
+                          <input type="tel" class="form-control" id="nombrecompleto" placeholder="Nombre Completo" maxlength="9" required>
+                         </li>
+                         <li>
+                           <label for="rut" >RUT</label>
+                            <input type="text" class="form-control" id="rut" placeholder="rut" pattern="[A-Z0-9]+" maxlength="" required >
+                         </li>
+                         <li>
+                            <label for="email" >E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="correo electrónico" maxlength="30" required >
+                         </li>
+                         <li> <label for="asunto" >Asunto</label>
+                             <textarea id="asunto"> </textarea>
+                         </li>
+                         <li>
+                          <button type="submit">Enviar Datos</button>
+                         </li>
+                    </ul>
+                  </form>
+         </section>
+  
+
+        
+        <footer><span>Realizado por : XXXXX</span></footer>
+
+    </body>
+</html>

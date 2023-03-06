@@ -1,0 +1,104 @@
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  -webkit-font-feature-settings: 'liga';
+          font-feature-settings: 'liga';
+}
+
+.material-icons.red {
+  color: red;
+}
+
+h1 {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  -webkit-animation-name: titulo;
+          animation-name: titulo;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+
+@-webkit-keyframes titulo {
+  0% {
+    font-size: 12px;
+  }
+  25% {
+    font-size: 14px;
+  }
+  50% {
+    font-size: 22px;
+  }
+  100% {
+    font-size: 24px;
+  }
+}
+
+@keyframes titulo {
+  0% {
+    font-size: 12px;
+  }
+  25% {
+    font-size: 14px;
+  }
+  50% {
+    font-size: 22px;
+  }
+  100% {
+    font-size: 24px;
+  }
+}
+
+#galeria {
+  width: 100%;
+  text-align: left;
+}
+
+#galeria ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#galeria ul li {
+  margin: 5px;
+}
+
+#galeria ul li div {
+  background-color: rgba(0, 0, 0, 0.3);
+  top: -30px;
+  position: relative;
+}
+
+#galeria img {
+  width: 120px;
+  height: 120px;
+}
+
+#fuente {
+  color: white;
+  font-size: 12px;
+  position: relative;
+  top: -5px;
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -1,0 +1,59 @@
+section{
+    margin:10px;
+    font-size:22px;
+}
+section img{
+    width:95%;
+}
+
+#etiquetas{
+    font-size:15px;
+
+}
+#etiquetas a{
+    margin:10px;
+    text-decoration: none;
+    color:black;
+}
+
+section span{
+    color:red;
+}
+
+section.descripcion{
+    text-align:left;
+}
+
+
+#comentarios{
+    float:left;
+    width:50%;
+}
+
+#comentarios ul{
+    margin-top:100px;
+}
+#comentarios ul li span{
+   font-weight: bold;
+   color:rgb(225, 33, 242);
+}
+#comentarios ul li{
+    border-bottom: 1px solid black;
+    padding:10px;
+}
+
+#etiquetas ul{
+    list-style-type: none;
+}
+
+#etiquetas{
+    float:right;
+    margin-right: 100px;;
+}
+
+#etiquetas ul li{
+    float:left;
+    background-color: beige;
+    margin: 1px;
+    padding:10px;
+}

@@ -1,0 +1,59 @@
+/********* GENERAL *********
+****************************/
+body{
+    background-color: antiquewhite;
+}
+.calculadora {
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25rem;
+    height: 30rem;
+    background-color: #36467d;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius:7px;
+}
+
+.pantalla {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    width: 20rem;
+    height: 6rem;
+    background-color: #5a6381;
+    border:#000 1px solid;
+    border-radius:7px;
+    box-shadow:inset rgba(0,0,0,1) 0px 1px 4px, inset rgba(225,225,225,0.3) 0px -2px 4px -2px;
+    background-image: linear-gradient(top, #3e3e3e 0%, #303030 100%);
+    box-sizing:border-box;
+    overflow: auto;
+}
+
+#numero {
+    word-wrap: break-word;
+}
+
+.cero {
+    width: 45%;
+}
+
+button {
+    background-color: #5a6381;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    color: #FCFCFD;
+    width: 60px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border: #000 1px solid;
+    border-radius:5px;
+}
+
+button:hover {
+    box-shadow: inset rgba(0,0,0,1) 0px 1px 4px, inset rgba(225,225,225,0.3) 0px -2px 4px -2px;
+}
+
+button:focus {
+    outline: 0px !important;
+}
