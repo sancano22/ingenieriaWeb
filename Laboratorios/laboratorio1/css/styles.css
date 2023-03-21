@@ -1,0 +1,36 @@
+
+.material-symbols-outlined {
+  float:right;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48,
+}
+
+
+
+body{
+    margin:0; 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+    display:flex;
+}
+
+ul li{
+    padding:10px;
+    margin:10px;
+    width:120px;
+    height: auto;
+    border: 1px solid #262b28da;
+    
+}
+
+img{
+    width:120px;
+    height:120px;
+}
