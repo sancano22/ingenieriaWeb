@@ -1,0 +1,36 @@
+ul.fotos{
+    list-style: none;
+    display: flex;
+}
+ul.fotos li{
+    margin: 5px;
+}
+
+.btn-primary{
+    --bs-btn-bg:cyan;
+    --bs-btn-border-color:cyan;
+}
+
+ul#formulario{
+    list-style: none;
+}
+
+form ul{
+    list-style: none;
+}
+
+/*Estilos al formulario*/
+input{
+    width:100%;
+    height: 30px;
+    border:1px solid gray;
+    background-color: gainsboro;
+}
+
+button{
+    width:200px;
+    height: 30px;
+    margin:10px 10px 0 0; 
+}
+
+   /*top rigth bottom left*/
