@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" >
+
+    </head>
+
+    <body>
+    <div class="container">
+            <form class="row g-3 needs-validation" novalidate>
+                <ul id="campos">
+                 <li>
+                <div class="col-md-4">
+                  <label for="nombre" class="form-label">Nombres</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" required>
+                  <div class="invalid-feedback">
+                    
+                  </div>
+                </div>
+                </li>
+                <li>
+                <div class="col-md-4">
+                  <label for="apellidos" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control" id="apellidos" name="apellidos" required>
+                  <div class="invalid-feedback">
+                    
+                  </div>
+                </div>
+            </li>
+            <li>
+                <div class="col-md-4">
+                  <label for="email" class="form-label">Correo Electrónico</label>
+                  <div class="input-group has-validation">
+                    <input type="email" class="form-control" id="email"  name="email" required>
+                    <div class="invalid-feedback">
+                     
+                    </div>
+                  </div>
+                </div>
+            </li>
+            <li>
+                <div class="col-md-4">
+                    <label for="contrasenya" class="form-label">Contraseña</label>
+                    <div class="input-group has-validation">
+                      <span class="input-group-text" id="inputGroupPrepend3"></span>
+                      <input type="password" class="form-control" id="contrasenya" name="contrasenya" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                      <div  class="invalid-feedback">
+                        
+                      </div>
+                    </div>
+                  </div>
+             </li>
+             <li>
+                <div class="col-md-3">
+                    <label for="region" class="form-label">Región</label>
+                    <select class="form-select" id="region" name="region" required>
+                      <option selected disabled value="">Seleccione una opción</option>
+                      <option>Santiago</option>
+                      <option>Atacama</option>
+                      <option>Coquimbo</option>
+                      <option>Valparaíso</option>
+                    </select>
+                    <div class="invalid-feedback">
+                     
+                    </div>
+                  </div>
+             </li>
+             <li>
+                <div class="col-md-6">
+                  <label for="comuna" class="form-label">Comuna</label>
+                  <input type="text" class="form-control" id="comuna" name="comuna" required>
+                 
+                </div>
+            </li>
+              <li>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox"  id="terminos" name="terminos" required>
+                    <label class="form-check-label" for="terminos">
+                      Acepta términos y condiciones
+                    </label>
+                   
+                  </div>
+                </div>
+            </li>
+            <li>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Registrarse</button>
+                </div>
+            </li>
+            </ul>
+        </form>
+
+    </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" defer crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js" defer></script>
+        <script src="js/app.js" defer></script>
+    </body>
+</html>
