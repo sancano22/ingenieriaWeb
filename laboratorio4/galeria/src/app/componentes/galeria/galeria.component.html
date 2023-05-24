@@ -1,0 +1,12 @@
+<ul>
+     <li *ngFor="let item of Fotos">
+        <a [routerLink]="['']" routerLinkActive="router-link-active">
+            <p>{{item.nombre | uppercase}}</p>
+           <img src="/assets/{{item.imagen}}">
+           <p class='descripcion'>{{item.descripcion}}</p>
+           <span>Visitas: {{item.visitas}}</span>
+         </a> 
+
+     </li>
+
+</ul>
