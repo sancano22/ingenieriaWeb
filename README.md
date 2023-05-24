@@ -16,5 +16,5 @@ Tecnologías Back-End:NodeJs, ExpressJS, JavaScript.
 
 Database: MySQL.
 
-<a href="https://angular.io" target="_blank"> <img src="https://devicons.github.io/devicon/devicon.git/icons/angularjs/angularjs-original.svg" alt="angularjs" width="65" height="65"/>
+<a href="https://angular.io" target="_blank"> <img src="https://github.com/angular/angular/blob/main/aio/src/assets/images/logos/angular/angular.png" alt="angularjs" width="65" height="65"/>
 
