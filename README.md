@@ -7,12 +7,12 @@ Pontificia Universidad Católica de Valparaíso
 - 3. Laboratorio 3: Validación de formulario con Jquey y JqueryValidation.
 - 4. Laboratorio 4: Práctica usando el Framework de AngularCLI: Creación de componentes e interfaces
 - 5. Laboratorio 5: Práctica de un API con NodeJS usando el framework ExpressJS con los métodos GET, POST, PUT, DELETE conectando una DB en MySQL.
-- 7. Laboratorio 7: Práctica de un API usando el método POST conectándose a FrontEnd a través de AJAX usando la librería AJAX.
+- 7. Laboratorio 7: Práctica de un API usando el método POST conectándose a FrontEnd a través de AJAX usando la librería jQuery.
 
 
-Tecnologías Front-End: Angular, Vue, JavaScript, HTML, CSS, Bootstrap, SCSS, TypeScript, Jquery (librería)
+Tecnologías Front-End: Angular, Vue, JavaScript, HTML, CSS, Bootstrap, SCSS, TypeScript, jQuery (librería)
 
-Tecnologías Back-End:NodeJs, ExpressJS, JavaScript.
+Tecnologías Back-End:NodeJs, ExpressJS, JavaScript. Herramienta : Insomnia.
 
 Database: MySQL.
 
