@@ -16,7 +16,8 @@ Tecnologías Back-End:NodeJs, ExpressJS, JavaScript.
 
 Database: MySQL.
 
+
 <a href="https://angular.io" target="_blank"> <img src="https://github.com/angular/angular/blob/main/aio/src/assets/images/logos/angular/angular.png" alt="angularjs" width="65" height="65"/>
 
-<a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/SpeedyC86/prezentare-nodejs/master/assets/nodejs-logo.png" alt="nodejs" width="65" height="65"/>
+<a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/SpeedyC86/prezentare-nodejs/master/assets/nodejs-logo.png" alt="nodejs"/>
 
