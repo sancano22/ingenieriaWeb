@@ -1,4 +1,4 @@
-# Ingeniería Web
+# Ingeniería Web: Laboratorios
 Curso de Ingeniería web - Escuela de Ingeniería Informática 
 Pontificia Universidad Católica de Valparaíso
 
