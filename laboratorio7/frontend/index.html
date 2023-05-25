@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head lang="es">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <htmlboiler
+    </head>
+    <body>
+        <header><h1>Laboratorio frontend+backend</h1></header>
+        <section>
+
+              <div class="container">
+                  <div id="mensaje"></div>
+                <form id="formulario" name="formulario" class="row g-3 needs-validation"  method="post" novalidate>
+                    <div class="col-md-4">
+                      <label for="email" class="form-label">Correo electrónico</label>
+                      <input type="email" class="form-control" id="email" name="email" required>                   
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="password" name="password" required>                   
+                    </div>
+
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit" id="enviar">Enviar</button>
+                    </div>
+  
+
+                    </form>
+
+              </div>
+            
+
+        </section>
+        <footer>@2023 copyright</footer>
+
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" async defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js" defer></script>
+        <script src="js/app.js" defer></script>
+    </body>
+</html>
