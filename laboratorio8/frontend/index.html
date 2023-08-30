@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="dist/styles.css">
+        <link rel="stylesheet" href="node_modules//bootstrap/dist/css/bootstrap.min.css">
+
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        <script src="..dist/app.js"></script>
+    </head>
+    <body>
+<div class="container">
+        <header>
+           
+        </header>
+
+        <section>
+            <form id="formularios" name="formularios" novalidate>
+                <ul id="campos">
+                 <li>
+                <div class="col-md">
+                  <label for="nombre" class="form-label">Nombres</label>
+                  <input type="text" class="form-control" id="nombre" name="nombre" required>
+                  <div class="invalid-feedback">
+                    
+                  </div>
+                </div>
+                </li>
+                <li>
+                <div class="col-md">
+                  <label for="apellidos" class="form-label">Apellidos</label>
+                  <input type="text" class="form-control" id="apellidos" name="apellidos" required>
+                  <div class="invalid-feedback"></div>
+                 </div>
+               </li>
+
+            <li>
+                <div class="col-md">
+                  <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email"  name="email" required>
+                    <div class="invalid-feedback">
+                     
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="col-md">
+                    <label for="contrasenya" class="form-label">Contraseña</label>
+                      <input type="password" class="form-control" id="contrasenya" name="contrasenya" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                      <div  class="invalid-feedback">
+                      </div>
+                  
+                  </div>
+             </li>
+             <li>
+                <div class="col-md">
+                    <label for="recontrasenya" class="form-label">Confirmar Contraseña</label>
+                      <input type="password" class="form-control" id="recontrasenya" name="recontrasenya" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" required>
+                      <div  class="invalid-feedback">
+                        
+                      </div>
+                  
+                  </div>
+             </li>
+             <li>
+                <div class="col-md">
+                    <label for="region" class="form-label">Región</label>
+                    <select class="form-select" id="region" name="region" required>
+                      <option selected disabled value="">Seleccione una opción</option>
+                      <option>Santiago</option>
+                      <option>Atacama</option>
+                      <option>Coquimbo</option>
+                      <option>Valparaíso</option>
+                    </select>
+                    <div class="invalid-feedback">
+                     
+                    </div>
+                  </div>
+             </li>
+             <li>
+                <div class="col-md">
+                  <label for="comuna" class="form-label">Comuna</label>
+                  <input type="text" class="form-control" id="comuna" name="comuna" required>
+                 
+                </div>
+            </li>
+              <li>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox"  id="terminos" name="terminos" required>
+                    <label class="form-check-label" for="terminos">
+                      Acepta términos y condiciones
+                    </label>
+                   
+                  </div>
+                </div>
+            </li>
+            <li>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Registrarse</button>
+                </div>
+            </li>
+            </ul>
+     </form>
+     </section>
+     
+            <footer>
+                 @copyright 2023
+            </footer>
+       
+        </div> 
+       
+    </body>
+</html>
