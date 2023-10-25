@@ -1,0 +1,7 @@
+instalar el paquete
+pip install flask_mysql
+
+
+
+Librería que reemplaza Jquery
+- https://github.com/fabiospampinato/cash
