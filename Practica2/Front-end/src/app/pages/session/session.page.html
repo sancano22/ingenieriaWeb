@@ -1,0 +1,25 @@
+<app-header></app-header>
+<ion-content>
+<form [formGroup]="formulario" (ngSubmit)="ValidarLogin()" *ngIf="!logueado">
+    <ul>
+      <li>
+       <div *ngIf="formulario.get('usuario')?.errors && formulario.get('usuario')?.hasError('required') && formulario.touched">
+         <div class="alert alert-danger" role="alert">
+           * Correo obligatorio
+         </div>
+       </div>
+       <div class="alert alert-danger" *ngIf="formulario.get('usuario')?.errors && formulario.get('usuario')?.hasError('email')">
+         Formato de Correo electrónico no es el correcto
+       </div>
+        <input type='email' formControlName="usuario" placeholder="Usuario" class="form-control">
+      </li>
+      <li>
+       <input type='password' formControlName="password" placeholder="Password" class="form-control">
+     </li>
+     <li>
+       <button type="submit" [disabled]="formulario.invalid" >Iniciar Sessión</button>
+     </li>
+   </ul>
+  </form>
+</ion-content>
+<app-footer></app-footer>
