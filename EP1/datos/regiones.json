@@ -1,0 +1,16 @@
+[{
+    "id":"1",
+    "nombre":"Arica y Parinacota",
+    "comunas":["Arica","Camarones","Putre","General Lagos"]
+},
+{
+    "id":"2",
+    "nombre":"Tarapacá",
+    "comunas":["Iquique","Alto Hospicio","Pozo Almonte","Colchane","Huara", "Pica"]
+},{
+    "id":"3",
+    "nombre":"Antofagasta",
+    "comunas":["Antofagasta","Mejillones","Sierra Gorda"]
+}
+
+]
