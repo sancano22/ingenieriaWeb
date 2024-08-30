@@ -12,7 +12,7 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 5. [Tecnologías] (#tecnologias)
 
 
-## 1. Análisis de las Funcionalidades
+## 1. Análisis de las Funcionalidades (#funcionalidades)
 
 - - Creación de perfil: El usuario podrá registrarse en la aplicación y asi obtener un perfil, en donde se guardara su registro.
 
