@@ -5,10 +5,10 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 
 ## Tabla de Contenidos
 
-1. [Análisis de las Funcionalidades](#análisis de las funcionalidades)
-2. [Prototipado Figma](#prototipado figma)
-3. [Maquetación Responsiva](#aaquetación responsiva)
-4. [Formularios y Validación](#formularios y validación)
+1. [Análisis de las Funcionalidades](#análisisdelasfuncionalidades)
+2. [Prototipado Figma](#prototipadofigma)
+3. [Maquetación Responsiva](#aaquetaciónresponsiva)
+4. [Formularios y Validación](#formulariosyvalidación)
 5. [Tecnologías](#tecnologías)
 
 
