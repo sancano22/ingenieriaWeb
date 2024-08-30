@@ -6,13 +6,13 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 ## Tabla de Contenidos
 
 1. [Análisis de las Funcionalidades](#funcionalidades)
-2. [Prototipado Figma] (#prototipo)
+2. [Prototipado Figma](#prototipo)
 3. [Maquetación Responsiva](#maquetacion)
 4. [Formularios y Validación](#formularios)
-5. [Tecnologías] (#tecnologias)
+5. [Tecnologías](#tecnologias)
 
 
-## 1. Análisis de las Funcionalidades (#funcionalidades)
+## Análisis de las Funcionalidades
 
 - - Creación de perfil: El usuario podrá registrarse en la aplicación y asi obtener un perfil, en donde se guardara su registro.
 
@@ -26,11 +26,11 @@ El principal objetivo de la aplicación es ofrecer al usuario una herramienta en
 
 - - Informar al usuario: Se le presentara al usuario durante su creacion o eliminacion de malos habitos, para dar a conocer hechos que podrian estarle sucediendo al usuario en su transición.
 
-## 2. Prototipado en Figma
+## Prototipado en Figma
 
 [Prototipo Wireframe](https://www.figma.com/proto/OTowrJNe7AAEzTw5mqKgTv/DTS)
 
-## 3. Maquetación Responsiva
+## Maquetación Responsiva
 La aplicación será desarrollada con HTML5, CSS3 y JavaScript, utilizando frameworks como Bootstrap para la
 maquetación responsiva.
 
