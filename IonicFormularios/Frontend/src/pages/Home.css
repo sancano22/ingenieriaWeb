@@ -1,0 +1,38 @@
+.form-control {
+    margin-bottom: 15px;
+  }
+  
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+.form-control input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+.form-control.invalid input {
+    border-color: red;
+    background-color: #ffe5e5;
+  }
+  
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+.input-error {
+    border-color: red;
+  }
+  
+.success-message {
+    color: green;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+  
