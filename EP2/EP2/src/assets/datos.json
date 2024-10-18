@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "image": "https://demo.sirv.com/chair.jpg?profile=Larger%20canvas%20with%20vignette&hue=-20",
+      "title": "Slide 1"
+    },
+    {
+      "id": 2,
+      "image": "https://demo.sirv.com/bag.jpg",
+      "title": "Slide 2"
+    },
+    {
+      "id": 3,
+      "image": "https://demo.sirv.com/bag.jpg",
+      "title": "Slide 3"
+    }
+  ]
+  
