@@ -1,8 +1,11 @@
-# a tener en cuenta
+# A tener en cuenta
 - - El slideshow trabaja con un paquete llamada Swiper.
     - - npm install swiper
 - - Adicional instalar boostrap para la parte de responsividad
      - - npm install bootstrap
+     - - debo usar bootstrap de la siguiente manera
+        - - import 'bootstrap/dist/css/bootstrap.min.css';
+
 # Entregables
 - - EP 2.1 :  Implementación de 7 mockups UI en el framework Ionic. Adi-
 cional los dos formularios de inicio de sesión y registro.
