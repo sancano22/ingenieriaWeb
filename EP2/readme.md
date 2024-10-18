@@ -11,7 +11,7 @@
 cional los dos formularios de inicio de sesión y registro.
 - - EP 2.2: Hacer lectura de datos desde un archivo JSON (puede ser local, o alguna fuente externa de datos), y mostrarlos en alguna de las pantallas.
 - - EP2.3 Definir ell modelo de la base de datos. Algunos motores de bases de datos que se pueden utilizar son: MySQL, PostgreSQL, SQLite, MongoDB, Firebase, entre otros. Se deben incluir al menos 3 tablas o documentos. __Justificar la selección del tipo de base de datos__.
-- - EP2.4 Hacer uso de al menos dos (2) __patrones de diseño__, ya sea web o móvil, en la implementación de las pantallas, teniendo como foco principal el uso desde un dispositivo móvil. [Ver presentación de patrones de diseño](patronesdediseno.pdf)
+- - EP2.4 Hacer uso de al menos dos (2) __patrones de diseño__, ya sea web o móvil, en la implementación de las pantallas, teniendo como foco principal el uso desde un dispositivo móvil. [Ver presentación de patrones de diseño](EP2/patronesdediseno.pdf)
 
 # Caso de Estudio
 Mi proyecto se centra en una tienda en línea llamada "ShopNow", el cual busca mejorar la gestión de inventarios, seguimiento de pedidos y relaciones con los clientes. 
@@ -35,7 +35,7 @@ Mi propuesta es una aplicación web responsiva, por tal razón se ha considerado
 
 La base de datos que he seleccionado es relacional, el motor de la base de datos ha usar es MySQL 
 
-[Modelo de la BD](DB.png)
+[Modelo de la BD](EP2/DB.png)
 
 # Justificación
 
